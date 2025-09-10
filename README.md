@@ -130,12 +130,12 @@ endmodule
 4:1 MUX DATAFLOW TESTBENCH IMPLEMENTATION
 
 ```
-module mux_4_1_tb;
+module mux4to1_tb;
     reg [3:0] i;
     reg [1:0] s;
     wire y;
 
-    mux_4_1 dut(i, s, y);
+    mux4to1 dut(i, s, y);
 
     initial begin
         i = 4'b0110;
